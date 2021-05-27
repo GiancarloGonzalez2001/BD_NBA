@@ -9,12 +9,14 @@ import consultas as sql
 external_stylesheets = ["https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"]
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+#Constantes que se usan en los colores de los enunciados o el fondo general de la página
 bg_color = '#A7E6EE'
 div_color = '#D1F1F5'
 font_color_bar = '#000000'
 label_bg = '#4C92FE'
 label_color = '#FFFFFF'
 rosario_color = '#F00A0A'
+#Números constantes de tamaño de fuente
 ur = 20
 title = 60
 subtitle = 40
